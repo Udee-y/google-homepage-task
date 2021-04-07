@@ -1,0 +1,103 @@
+body, p {
+    margin: 0;
+    padding: 0;
+}
+.navigation {
+    display: flex;
+    justify-content: space-around; 
+    width: 15%; 
+    margin-left: auto;
+    padding: 2em;
+    font-size: 14px;
+     
+}
+.navigation img {
+    height: 20px;
+    margin-right: 20px;
+
+    
+}
+ a{
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+} 
+.text-input {
+    width: 40%;
+    margin:5.7em auto;
+    text-align: center;
+    padding: 10px 0 39px 0; 
+    
+}
+.text-input img {
+    width: 40%;
+    padding: 1em;
+    margin-top: 5px;
+}
+.input-field {
+    width: 80%;
+    border-radius: 30px;
+    border: 0.4px solid #e0e0e0;
+    padding: 1em;
+    height: 5px;
+}
+.button {
+    padding-top: 20px;
+    
+}
+.button button {
+    border: none;
+    padding: 8px;
+    background-color: #f5f5f5;
+
+}
+.button-text {
+    font-size: 11px;
+}
+.languages {
+    font-size: 11px;
+    margin: 1em;
+   
+}
+.languages a{
+    color: blue;
+    font-size: 11px;
+    justify-content: space-between;
+     margin-right: 7px; 
+}
+footer {
+    background-color: #f5f5f5;
+    font-size: 12px;
+    
+}
+.anchor-bottom {
+    color: grey;
+}
+.footer-top {
+    padding: 1em;
+    margin-left: 1em;
+    color: grey;
+}
+
+
+.footer-bottom {
+    padding: 1em;
+    display: flex;
+    justify-content: space-between ;
+    border-top: 1px solid grey;
+    
+}
+.carbon {
+    color: grey;
+    
+}
+.left a{
+    
+    margin-left: 1em;
+   
+}
+.right a{
+    margin-right: 1em;
+}
